@@ -26,7 +26,9 @@ export default function Hero() {
 
                         {/* Button Section */}
                         <div className="w-full flex flex-col mt-4">
-                            <Link className="w-full text-sm text-white font-semibold bg-violet-800 rounded mb-2 p-2">
+                            <Link
+                                to='/createaccount'
+                                className="w-full text-sm text-white font-semibold bg-violet-800 rounded mb-2 p-2">
                                 Create Account
                             </Link>
                             <Link

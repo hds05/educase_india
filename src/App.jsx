@@ -4,6 +4,7 @@ import './App.css'
 import Hero from './components/hero'
 import Login from './components/login';
 import Account from './components/account';
+import CreatePage from './components/createaccount';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
       <Route path="/" element={<Hero />} />
       <Route path="/login" element={<Login />} />
       <Route path="/account" element={<Account />} />
+      <Route path="/createaccount" element={<CreatePage />} />
       {/* Add more routes as needed */}
     </Routes>
   )
