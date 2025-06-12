@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Hero() {
     return (
         <div className="w-full h-screen flex items-center justify-center bg-gray-100">
-            <div className="flex justify-start items-end bg-white shadow-lg rounded-lg p-4 m-5 min-w-[300px] max-w-lg text-center h-[500px]">
+            <div className="flex justify-start items-end bg-white rounded-lg p-4 m-5 min-w-[300px] max-w-lg text-center h-[500px]" style={{ boxShadow: '0 4px 20px rgba(0, 0, 0, 0.3)' }}>
                 <div className="w-full flex flex-col items-center justify-between h-full">
 
                     {/* Image Section */}
