@@ -42,14 +42,14 @@ export default function Login() {
   }
 
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-gray-100">
-      <div className="flex justify-start items-end bg-white shadow-lg rounded-lg p-4 m-5 min-w-[300px] max-w-lg text-center h-[500px]">
-        <div className="w-full font-sans flex flex-col mt-2 items-start h-full">
-          <h1 className="font-bold text-xl mb-1">
+    <div className="w-full h-screen flex items-center justify-center min-[426px]:bg-gray-100">
+      <div className="max-[426px]:w-full flex justify-start h-full items-end min-[426px]:h-[500px] bg-white min-[426px]:shadow-lg rounded-lg p-2 m-2 min-[426px]:p-4 min-[426px]:m-5 min-w-[300px] max-w-lg text-center">
+        <div className="w-full h-full font-sans flex flex-col mt-2 items-start text-left">
+          <h1 className="font-bold  text-[40px] mb-1 min-[426px]:text-xl">
             Signin to your <br />
             PopX account
           </h1>
-          <p className="text-sm text-gray-600">
+          <p className=" text-[15px] mb-1 min-[426px]:text-sm text-gray-600">
             Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
           </p>
 

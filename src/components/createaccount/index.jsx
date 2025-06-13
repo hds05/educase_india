@@ -36,7 +36,7 @@ export default function CreatePage() {
 
   return (
     <div className="w-full h-screen flex items-center justify-center min-[426px]:bg-gray-100">
-      <div className=" w-full h-full bg-white rounded-none shadow-none p-5 m-0 min-w-[300px] max-w-sm text-center flex justify-start items-end min-[426px]:shadow-lg min-[426px]:h-[600px] min-[426px]:p-4 min-[426px]:m-5 min-[426px]:rounded-lg">
+      <div className=" max-[426px]:w-full h-full bg-white rounded-none shadow-none p-5 m-0 min-w-[300px] max-w-sm text-center flex justify-start items-end min-[426px]:shadow-lg min-[426px]:h-[600px] min-[426px]:p-4 min-[426px]:m-5 min-[426px]:rounded-lg">
 
         <div className="w-full h-full font-sans flex flex-col justify-between mt-2 items-start">
           <div className='w-full'>
