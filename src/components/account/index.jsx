@@ -17,7 +17,7 @@ export default function Account() {
 
     return (
         <div className="w-full h-screen flex items-center justify-center bg-gray-100">
-            <div className="flex flex-col items-start bg-white shadow-lg rounded-lg m-5 min-w-[300px] max-w-lg text-center h-[500px]">
+            <div className="max-[426px]:w-full max-[426px]:h-full flex flex-col items-start bg-white shadow-lg rounded-lg min-[426px]:m-5 min-w-[300px] max-w-lg text-center h-[500px]">
                 <div
                     className="w-full font-sans bg-white flex flex-col items-start mb-3 p-5"
                     style={{ boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }}
@@ -61,7 +61,7 @@ export default function Account() {
                         onChange={handleImageChange}
                     />
                 </div>
-                <p className='text-xs max-w-[300px] p-3 text-left' style={{borderBottom:'1px dashed gray'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos tempora repellat eius nam, iure a ex aperiam. Lorem ipsum dolor sit. Lorem, dolor.</p>
+                <p className='text-xs w-full min-[426px]:w-[300px] p-3 text-left' style={{borderBottom:'1px dashed gray'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos tempora repellat eius nam, iure a ex aperiam. Lorem ipsum dolor sit. Lorem, dolor.</p>
             </div>
         </div>
     );
