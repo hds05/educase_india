@@ -35,11 +35,12 @@ export default function CreatePage() {
   }
 
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-gray-100">
-      <div className="flex justify-start items-end bg-white shadow-lg rounded-lg p-4 m-5 min-w-[300px] max-w-lg text-center h-[500px]">
-        <div className="w-full font-sans flex flex-col justify-between mt-2 items-start h-full">
+    <div className="w-full h-screen flex items-center justify-center min-[426px]:bg-gray-100">
+      <div className=" w-full h-full bg-white rounded-none shadow-none p-5 m-0 min-w-[300px] max-w-sm text-center flex justify-start items-end min-[426px]:shadow-lg min-[426px]:h-[600px] min-[426px]:p-4 min-[426px]:m-5 min-[426px]:rounded-lg">
+
+        <div className="w-full h-full font-sans flex flex-col justify-between mt-2 items-start">
           <div className='w-full'>
-            <h1 className="font-bold text-left text-xl mb-1">
+            <h1 className="font-bold text-left text-[40px] mb-1 min-[426px]:text-xl">
               Create your <br />
               PopX account
             </h1>
@@ -56,7 +57,7 @@ export default function CreatePage() {
                     onChange={handleChange}
                     required
                     placeholder="Enter your name"
-                    className="w-full px-1 py-0.3 mb-0.5 placeholder:text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
+                    className="w-full px-1 py-2 mb-0.5 placeholder:text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
                   />
 
                   {/* Phone Number */}
@@ -70,7 +71,7 @@ export default function CreatePage() {
                     required
                     type='number'
                     placeholder="Your phone number"
-                    className="w-full px-1 py-0.3 mb-0.5 placeholder:text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
+                    className="w-full px-1 py-2 mb-0.5 placeholder:text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
                   />
 
                   {/* Email */}
@@ -84,7 +85,7 @@ export default function CreatePage() {
                     required
                     type='email'
                     placeholder="Your email"
-                    className="w-full px-1 py-0.3 mb-0.5 placeholder:text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
+                    className="w-full px-1 py-2 mb-0.5 placeholder:text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
                   />
 
                   {/* Password */}
@@ -97,7 +98,7 @@ export default function CreatePage() {
                     onChange={handleChange}
                     required
                     placeholder="Your password"
-                    className="w-full px-1 py-0.3 mb-0.5 placeholder:text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
+                    className="w-full px-1 py-2 mb-0.5 placeholder:text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
                   />
 
                   {/* Company Name */}
@@ -110,11 +111,11 @@ export default function CreatePage() {
                     onChange={handleChange}
                     type='text'
                     placeholder="Your company name"
-                    className="w-full px-1 py-0.3 mb-0.5 placeholder:text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
+                    className="w-full px-1 py-2 mb-3 placeholder:text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
                   />
 
                   {/* Radio Buttons */}
-                  <p className="mt-2 mb-1 text-sm text-gray-700">
+                  <p className="mt-4 mb-1 text-sm text-gray-700">
                     Are you an Agency?<span className="text-red-500">*</span>
                   </p>
                   <div className="flex items-center gap-6 mb-4">
