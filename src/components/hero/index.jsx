@@ -33,7 +33,7 @@ export default function Hero() {
                             </Link>
                             <Link
                                 to="/login"
-                                className="w-full text-sm font-semibold text-white rounded p-2"
+                                className="w-full text-sm font-semibold text-black rounded p-2"
                                 style={{ backgroundColor: '#DF73FF' }}
                             >
                                 Already Registered? Login
