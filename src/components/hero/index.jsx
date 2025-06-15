@@ -28,12 +28,12 @@ export default function Hero() {
                         <div className="w-full flex flex-col mt-4">
                             <Link
                                 to='/createaccount'
-                                className="w-full text-sm text-white font-semibold bg-violet-800 rounded mb-2 p-2">
+                                className="w-full text-md min-[426px]:text-sm text-white font-semibold bg-violet-800 rounded mb-2 p-3">
                                 Create Account
                             </Link>
                             <Link
                                 to="/login"
-                                className="w-full text-sm font-semibold text-black rounded p-2"
+                                className="w-full text-md min-[426px]:text-sm font-semibold text-black rounded p-3"
                                 style={{ backgroundColor: '#DF73FF' }}
                             >
                                 Already Registered? Login
